@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Units Converter</h1>
+    
+    <label for="value">Enter Value:</label>
+    <input type="number" id="value" placeholder="Enter value">
+
+    <label for="fromUnit">From Unit:</label>
+    <select id="fromUnit">
+    <option value="meters">Meters</option>
+    <option value="kilometers">Kilometers</option>
+    <option value="centimeters">Centimeters</option>
+    <option value="millimeters">Millimeters</option>
+    <option value="inches">Inches</option>
+    <option value="feet">Feet</option>
+    <option value="yards">Yards</option>
+</select>
+
+    <label for="toUnit">To Unit:</label>
+    <select id="toUnit">
+        
+            <option value="meters">Meters</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="millimeters">Millimeters</option>
+            <option value="inches">Inches</option>
+            <option value="feet">Feet</option>
+            <option value="yards">Yards</option>
+        </select>
+
+       
+
+    <button onclick="convert()">Convert</button>
+
+    <p id="result"></p>
+
+    <script src="converter.js"></script>  
+</body>
+</html>
+<script src="script.js"></script>
